@@ -1,0 +1,27 @@
+{{#each this}}
+  <h1>{{this.name.official}}</h1>
+  <img
+    src='{{this.flags.png}}'
+    alt='{{this.flags.alt}}'
+    width='300px'
+    height='150px'
+  />
+  <ul class='country-info_list'>
+    <li>
+      <h2 class='header'>Capital:<span class='text'>{{this.capital}}</span></h2>
+    </li>
+    <li>
+      <h2 class='header'>Population:<span
+          class='text'
+        >{{this.population}}</span></h2>
+    </li>
+    <li>
+      <h2 class='header header--lang'>Languages:
+        <span class='text'>
+          <ul class='lang-list'>
+            {{#each languages}}<li>{{this}}</li>
+            {{/each}}</ul>
+        </span></h2>
+    </li>
+  </ul>
+{{/each}}

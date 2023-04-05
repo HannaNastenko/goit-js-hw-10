@@ -1,0 +1,11 @@
+{{#each this}}
+  <li class='coutry-list_item'>
+    <img
+      src='{{this.flags.png}}'
+      alt='{{this.flags.alt}}'
+      width='45px'
+      height='35px'
+    />
+    <h1>{{this.name.official}}</h1>
+  </li>
+{{/each}}

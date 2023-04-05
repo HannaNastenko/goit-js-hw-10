@@ -18,3 +18,39 @@ body {
   max-width: 320px;
   margin-bottom: 16px;
 }
+
+.country-list {
+  list-style: none;
+  font-size: 12px;
+}
+
+.coutry-list_item {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+}
+
+.country-info_list {
+  padding: 0;
+  list-style: none;
+}
+
+.header {
+  font-size: 20px;
+}
+
+.text {
+  display: inline-block;
+  margin-left: 5px;
+  font-size: 17px;
+}
+
+.header--lang {
+  display: flex;
+  align-items: baseline;
+}
+
+.lang-list {
+  padding: 0;
+  list-style: none;
+}
